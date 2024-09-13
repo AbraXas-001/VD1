@@ -1,1 +1,14 @@
-
+{
+  "name": "youtube-video-downloader",
+  "version": "1.0.0",
+  "description": "A YouTube video downloader with quality and audio options.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "ytdl-core": "^4.9.1",
+    "dotenv": "^16.0.0"
+  }
+}
